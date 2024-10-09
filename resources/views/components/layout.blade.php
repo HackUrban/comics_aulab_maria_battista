@@ -9,7 +9,14 @@
 </head>
 <body>
     
+    <x-navbar></x-navbar>
+    <div class="container-fluid pe-5 ps-5 mb-3 mt-3">
+        <div class="row justify-content-center text-center">
+            <div class="col-12">
+                {{$slot}}
 
-    {{$slot}}
+            </div>
+        </div>
+    </div>
 </body>
 </html>

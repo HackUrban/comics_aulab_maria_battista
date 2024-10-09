@@ -11,4 +11,9 @@ class PublicController extends Controller
     {
         return view('welcome');
     }
+
+    public function createComic()
+    {
+        return view('comic.create');
+    }
 }
